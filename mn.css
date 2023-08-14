@@ -1,0 +1,178 @@
+/*MN External css*/
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.heading {
+  color: black;
+  background-color: rgba(255, 217, 0, 0.737);
+  border-width: 2px, 22, 33;
+  border-right: 2px solid black;
+  border-top: dotted 3px solid green;
+  background-position: center;
+  text-align: center;
+  text-size-adjust: 100px;
+  margin-top: 0px;
+
+}
+
+.logo {
+
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 95px;
+  margin-bottom: 25px;
+
+}
+
+.introduction {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  background-position: center;
+}
+
+@media (max-width:500px) {
+
+  .introduction {
+    font-size: 20px;
+  }
+
+}
+
+
+.introimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  height: auto;
+  border: yellow 2px solid;
+}
+
+.clubimage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: yellow 2px solid;
+}
+
+.historyheading {
+  color: rgba(255, 217, 0, 0.737);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  background-position: center;
+}
+
+@media (max-width:500px) {
+
+  .historyheading {
+    font-size: 20px;
+  }
+
+}
+
+.history {
+  color: white;
+  /*font-family: 'Brush Script MT', cursive;*/
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 400;
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  background-position: center;
+}
+
+@media (max-width:500px) {
+
+  .history {
+    font-size: 20px;
+  }
+
+}
+
+
+
+.catering {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: auto;
+  border: yellow 2px solid;
+
+}
+
+
+.context-dark,
+.bg-gray-dark,
+.bg-primary {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a,
+.footer-classic a:focus,
+.footer-classic a:active {
+  color: #ffffff;
+}
+
+.nav-list li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+  margin-left: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 23px;
+  font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.social-container .col {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-list li a:before {
+  content: "\f14f";
+  font: 400 21px/1 "Material Design Icons";
+  color: #4d6de6;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: -28px;
+  margin-right: 7px;
+  opacity: 0;
+  visibility: hidden;
+  transition: .22s ease;
+}
